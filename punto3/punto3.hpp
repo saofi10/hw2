@@ -1,9 +1,10 @@
-#ifndef NUMEROS_HPP
-#define NUMEROS_HPP
+#ifndef PUNTO3_HPP
+#define PUNTO3_HPP
 
 #include <string>
 #include <iostream>
 #include <sstream> 
+#include <stdexcept>
 
 using namespace std;
     

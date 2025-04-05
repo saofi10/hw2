@@ -1,5 +1,5 @@
-#ifndef CUENTAS_HPP
-#define CUENTAS_HPP
+#ifndef PUNTO4_HPP
+#define PUNTO4_HPP
 
 #include <iostream>
 #include <string>
@@ -10,6 +10,10 @@ using namespace std;
  * @brief Clase abstracta base que representa una cuenta de banco
  */
 class cuentaBanco {
+
+protected:
+    string titularCuenta; // Nombre del titular de la cuenta
+
 private:
     double balance = 0.0; //Balance (dinero) de la cuenta
 
@@ -17,9 +21,6 @@ private:
      * @brief Muestra la informacion de la cuenta
      */
     virtual void mostrarInfo() const = 0;
-
-protected:
-    string titularCuenta; // Nombre del titular de la cuenta
 
 public:
     /**
